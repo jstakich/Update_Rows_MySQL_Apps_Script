@@ -1,0 +1,7 @@
+This is an example of using an App Script that Updates many Rows of a MySQL Database from a Google Sheet.
+Step-by-step guide
+ 
+Set a button in Google Sheets to call the following function
+The Update statement is Updating as many rows that contain data based off of 3 Columns which happen to be the first three Columns in this example. The 0,1, and 2 are determining the columns.
+Also Note the “3” that is in “ss.getSheets()[3]”
+This “3” refers to the sheet that your grabbing the fields off of.
